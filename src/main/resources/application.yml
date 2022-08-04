@@ -1,0 +1,12 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /person/v1
+spring:
+  profiles:
+    active: "@spring.profiles.active@"
+  jpa:
+    show-sql: false
+#logging:
+#  config: classpath:logback-spring.xml
+    
